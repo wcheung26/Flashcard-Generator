@@ -9,7 +9,6 @@ var run = function() {
 		type: 'confirm',
 		message: 'Add new flash cards?'
 	}).then(function(answer) {
-		console.log(answer.controller)
 		if (answer.controller === true) {
 			create();
 		} else {
